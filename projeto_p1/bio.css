@@ -1,0 +1,158 @@
+body {
+    background-color: #f2fffc;
+    font-family: "Crimson text", serif;
+    font-size: 20px;
+}
+
+main {
+    line-height: 1.5;
+}
+
+aside {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: white;
+    font-family: "arial", sans-serif;
+}
+
+aside .icones-sociais li {
+    display: inline-block;
+}
+
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+ul {
+    padding: 0 0 15px 0;
+}
+
+nav h1 {
+    font-size: 30px;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+main h1 {
+    font-size: 40px;
+    background-color: rgb(120, 30, 60);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "arial", sans-serif;
+    padding: 25px;
+    margin: 0;
+    border-bottom: 3px solid #181C1F;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "open-sans", sans-serif;
+    clear: both;
+
+}
+
+main div {
+    margin: auto;
+    padding: 30px 0;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+blockquote {
+    background-color: #d3ddda;
+    padding: 20px 40px;
+    border: 2px solid #c2ccca;
+    width: 250px;
+    margin: 0;
+    box-sizing: border-box;
+    float: right;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+footer p {
+    background-color: #181C1F;
+    margin: 2px 0 0 0;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icones-sociais a {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+
+#twitter {
+    background-image: url(./img/twitter.png);
+}
+
+#github {
+    background-image: url(./img/github.png);
+}
+
+#linkedin {
+    background-image: url(./img/linkedin.png);
+}
+
+.container {
+    width: 50%;
+}
+
+.fleft {
+    float: left;
+    margin-right: 40px;
+}
+
+.fright {
+    float: right;
+    margin-left: 40px;
+}
+
+aside, img {
+    float: right;
+}
+
+aside {
+    clear: right;
+    position: absolute;
+    top: 270.63px;
+    right: 0;
+}
+
+main {
+    float: left;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 270.63px;
+}
